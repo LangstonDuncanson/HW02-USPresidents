@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Barack Hussein Obama II</string>
+		<key>yearBorn</key>
+		<date>1961-08-04T15:47:58Z</date>
+		<key>placeBorn</key>
+		<string>Honolulu, Hawaii</string>
+		<key>yearDeath</key>
+		<date>1-01-01T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Not Applicable</string>
+		<key>yearOffice</key>
+		<date>2009-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Senator</string>
+		<key>partyAffilation</key>
+		<string>Democratic</string>
+		<key>image</key>
+		<string>barackObama.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Donald John Trump</string>
+		<key>yearBorn</key>
+		<date>1946-06-14T15:47:58Z</date>
+		<key>placeBorn</key>
+		<string>New York City, New York</string>
+		<key>yearDeath</key>
+		<date>1-01-01T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Not Applicable</string>
+		<key>yearOffice</key>
+		<date>2017-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>1</integer>
+		<key>occupation</key>
+		<string>Real Estate Developer</string>
+		<key>partyAffilation</key>
+		<string>Republican</string>
+		<key>image</key>
+		<string>donaldTrump.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>George Walker Bush</string>
+		<key>yearBorn</key>
+		<date>1946-07-06T15:47:58Z</date>
+		<key>placeBorn</key>
+		<string>New Haven, Connecticut</string>
+		<key>yearDeath</key>
+		<date>1-01-01T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Not Applicable</string>
+		<key>yearOffice</key>
+		<date>2001-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Business Man - Politician</string>
+		<key>partyAffilation</key>
+		<string>Republican</string>
+		<key>image</key>
+		<string>georgeBush.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>William Jefferson Blythe III</string>
+		<key>yearBorn</key>
+		<date>1946-08-19T15:47:58Z</date>
+		<key>placeBorn</key>
+		<string>Hope, Arkansas</string>
+		<key>yearDeath</key>
+		<date>1-01-01T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Not Applicable</string>
+		<key>yearOffice</key>
+		<date>1993-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Governor</string>
+		<key>partyAffilation</key>
+		<string>Democratic</string>
+		<key>image</key>
+		<string>billClinton.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>George Herbert Walker Bush</string>
+		<key>yearBorn</key>
+		<date>1924-06-12T15:47:58Z</date>
+		<key>placeBorn</key>
+		<string>Milton, Massachusetts</string>
+		<key>yearDeath</key>
+		<date>1-01-01T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Not Applicable</string>
+		<key>yearOffice</key>
+		<date>1989-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>1</integer>
+		<key>occupation</key>
+		<string>Politician - Businessman</string>
+		<key>partyAffilation</key>
+		<string>Republican</string>
+		<key>image</key>
+		<string>georgeHBush.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Abraham Lincoln</string>
+		<key>yearBorn</key>
+		<date>1809-02-12T16:44:00Z</date>
+		<key>placeBorn</key>
+		<string>Hodgenville, Kentucky</string>
+		<key>yearDeath</key>
+		<date>1865-04-15T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Petersen House, Washington, D.C.</string>
+		<key>yearOffice</key>
+		<date>1861-03-04T16:53:30Z</date>
+		<key>numOfTerms</key>
+		<integer>1</integer>
+		<key>occupation</key>
+		<string>Politician - Lawyer</string>
+		<key>partyAffilation</key>
+		<string>Republican - Whig</string>
+		<key>image</key>
+		<string>abrahamLincoln.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>George Washington</string>
+		<key>yearBorn</key>
+		<date>1732-02-22T16:44:00Z</date>
+		<key>placeBorn</key>
+		<string>Bridge Creek, Colony of Virginia</string>
+		<key>yearDeath</key>
+		<date>1799-12-14T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Mount Vernon, Virginia</string>
+		<key>yearOffice</key>
+		<date>1789-04-30T16:53:30Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Military</string>
+		<key>partyAffilation</key>
+		<string>None</string>
+		<key>image</key>
+		<string>georgeWashington.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Thomas Jefferson</string>
+		<key>yearBorn</key>
+		<date>1743-04-13T16:44:00Z</date>
+		<key>placeBorn</key>
+		<string>Shadwell, Colony of Virginia</string>
+		<key>yearDeath</key>
+		<date>1826-07-04T16:51:23Z</date>
+		<key>placeDeath</key>
+		<string>Charlottesville, Virginia</string>
+		<key>yearOffice</key>
+		<date>1801-03-04T16:53:30Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Lawyer</string>
+		<key>partyAffilation</key>
+		<string>Democratic-Republican</string>
+		<key>image</key>
+		<string>thomasJefferson.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>John Fitzgerald Kennedy</string>
+		<key>yearBorn</key>
+		<date>1917-05-29T16:47:58Z</date>
+		<key>placeBorn</key>
+		<string>Brookline, Massachusetts</string>
+		<key>yearDeath</key>
+		<date>1963-11-22T16:55:21Z</date>
+		<key>placeDeath</key>
+		<string>Dallas, Texas</string>
+		<key>yearOffice</key>
+		<date>1961-01-20T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>1</integer>
+		<key>occupation</key>
+		<string>Politician</string>
+		<key>partyAffilation</key>
+		<string>Democratic</string>
+		<key>image</key>
+		<string>johnFKennedy.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Theodore Roosevelt</string>
+		<key>yearBorn</key>
+		<date>1858-10-27T16:44:00Z</date>
+		<key>placeBorn</key>
+		<string>New York City, New York</string>
+		<key>yearDeath</key>
+		<date>1919-01-06T16:55:21Z</date>
+		<key>placeDeath</key>
+		<string>Oyster Bay, New York</string>
+		<key>yearOffice</key>
+		<date>1901-09-14T16:57:28Z</date>
+		<key>numOfTerms</key>
+		<integer>2</integer>
+		<key>occupation</key>
+		<string>Politician</string>
+		<key>partyAffilation</key>
+		<string>Republican</string>
+		<key>image</key>
+		<string>theodoreRoosevelt.jpg</string>
+	</dict>
+</array>
+</plist>
