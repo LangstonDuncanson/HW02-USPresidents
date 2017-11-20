@@ -10,8 +10,7 @@
 		1E2899EA1FC0B78900DD45CE /* PresidentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2899E91FC0B78800DD45CE /* PresidentTableViewController.m */; };
 		1E2899ED1FC0B7A700DD45CE /* PresidentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2899EC1FC0B7A700DD45CE /* PresidentTableViewCell.m */; };
 		1E2899F01FC0B87B00DD45CE /* PresidentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2899EF1FC0B87B00DD45CE /* PresidentDetailViewController.m */; };
-		1E2899F41FC0D82900DD45CE /* presidentImages in Resources */ = {isa = PBXBuildFile; fileRef = 1E2899F31FC0D82900DD45CE /* presidentImages */; };
-		1E2899F61FC0D83200DD45CE /* presidentPortrait in Resources */ = {isa = PBXBuildFile; fileRef = 1E2899F51FC0D83200DD45CE /* presidentPortrait */; };
+		1E2899F81FC1166D00DD45CE /* presidentPortrait in Resources */ = {isa = PBXBuildFile; fileRef = 1E2899F71FC1166D00DD45CE /* presidentPortrait */; };
 		1E9DDDCA1FC00B0C001A2BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9DDDC91FC00B0C001A2BD3 /* AppDelegate.m */; };
 		1E9DDDCD1FC00B0C001A2BD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9DDDCC1FC00B0C001A2BD3 /* ViewController.m */; };
 		1E9DDDD01FC00B0C001A2BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9DDDCE1FC00B0C001A2BD3 /* Main.storyboard */; };
@@ -47,8 +46,17 @@
 		1E2899EC1FC0B7A700DD45CE /* PresidentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentTableViewCell.m; sourceTree = "<group>"; };
 		1E2899EE1FC0B87B00DD45CE /* PresidentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentDetailViewController.h; sourceTree = "<group>"; };
 		1E2899EF1FC0B87B00DD45CE /* PresidentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentDetailViewController.m; sourceTree = "<group>"; };
-		1E2899F31FC0D82900DD45CE /* presidentImages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = presidentImages; path = "../../../Downloads/drive-download-20171118T210336Z-001/presidentImages"; sourceTree = "<group>"; };
-		1E2899F51FC0D83200DD45CE /* presidentPortrait */ = {isa = PBXFileReference; lastKnownFileType = folder; name = presidentPortrait; path = "../../../Downloads/drive-download-20171118T210336Z-001/presidentPortrait"; sourceTree = "<group>"; };
+		1E2899F71FC1166D00DD45CE /* presidentPortrait */ = {isa = PBXFileReference; lastKnownFileType = folder; path = presidentPortrait; sourceTree = "<group>"; };
+		1E289A051FC1169C00DD45CE /* abrahamLincoln.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrahamLincoln.jpg; sourceTree = "<group>"; };
+		1E289A061FC1169C00DD45CE /* barackObama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barackObama.jpg; sourceTree = "<group>"; };
+		1E289A071FC1169C00DD45CE /* billClinton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = billClinton.jpg; sourceTree = "<group>"; };
+		1E289A081FC1169C00DD45CE /* donaldTrump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donaldTrump.jpg; sourceTree = "<group>"; };
+		1E289A091FC1169C00DD45CE /* georgeBush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgeBush.jpg; sourceTree = "<group>"; };
+		1E289A0A1FC1169C00DD45CE /* georgeHBush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgeHBush.jpg; sourceTree = "<group>"; };
+		1E289A0B1FC1169C00DD45CE /* georgeWashington.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = georgeWashington.jpg; sourceTree = "<group>"; };
+		1E289A0C1FC1169C00DD45CE /* johnFKennedy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johnFKennedy.jpg; sourceTree = "<group>"; };
+		1E289A0D1FC1169C00DD45CE /* theodoreRoosevelt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theodoreRoosevelt.jpg; sourceTree = "<group>"; };
+		1E289A0E1FC1169C00DD45CE /* thomasJefferson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thomasJefferson.jpg; sourceTree = "<group>"; };
 		1E9DDDC51FC00B0C001A2BD3 /* HW02-USPresidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW02-USPresidents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9DDDC81FC00B0C001A2BD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E9DDDC91FC00B0C001A2BD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E289A041FC1169C00DD45CE /* presidentImages */ = {
+			isa = PBXGroup;
+			children = (
+				1E289A051FC1169C00DD45CE /* abrahamLincoln.jpg */,
+				1E289A061FC1169C00DD45CE /* barackObama.jpg */,
+				1E289A071FC1169C00DD45CE /* billClinton.jpg */,
+				1E289A081FC1169C00DD45CE /* donaldTrump.jpg */,
+				1E289A091FC1169C00DD45CE /* georgeBush.jpg */,
+				1E289A0A1FC1169C00DD45CE /* georgeHBush.jpg */,
+				1E289A0B1FC1169C00DD45CE /* georgeWashington.jpg */,
+				1E289A0C1FC1169C00DD45CE /* johnFKennedy.jpg */,
+				1E289A0D1FC1169C00DD45CE /* theodoreRoosevelt.jpg */,
+				1E289A0E1FC1169C00DD45CE /* thomasJefferson.jpg */,
+			);
+			path = presidentImages;
+			sourceTree = "<group>";
+		};
 		1E9DDDBC1FC00B0C001A2BD3 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +141,8 @@
 		1E9DDDC71FC00B0C001A2BD3 /* HW02-USPresidents */ = {
 			isa = PBXGroup;
 			children = (
+				1E289A041FC1169C00DD45CE /* presidentImages */,
+				1E2899F71FC1166D00DD45CE /* presidentPortrait */,
 				1E9DDDC81FC00B0C001A2BD3 /* AppDelegate.h */,
 				1E2899EB1FC0B7A700DD45CE /* PresidentTableViewCell.h */,
 				1E2899EC1FC0B7A700DD45CE /* PresidentTableViewCell.m */,
@@ -125,10 +152,8 @@
 				1E2899EE1FC0B87B00DD45CE /* PresidentDetailViewController.h */,
 				1E2899EF1FC0B87B00DD45CE /* PresidentDetailViewController.m */,
 				1E9DDDCE1FC00B0C001A2BD3 /* Main.storyboard */,
-				1E2899F31FC0D82900DD45CE /* presidentImages */,
 				1E2899E81FC0B78800DD45CE /* PresidentTableViewController.h */,
 				1E2899E91FC0B78800DD45CE /* PresidentTableViewController.m */,
-				1E2899F51FC0D83200DD45CE /* presidentPortrait */,
 				1E9DDDFC1FC09B1D001A2BD3 /* presidents.plist */,
 				1E9DDDD11FC00B0C001A2BD3 /* Assets.xcassets */,
 				1E9DDDD31FC00B0C001A2BD3 /* LaunchScreen.storyboard */,
@@ -264,8 +289,7 @@
 			files = (
 				1E9DDDD51FC00B0C001A2BD3 /* LaunchScreen.storyboard in Resources */,
 				1E9DDDD21FC00B0C001A2BD3 /* Assets.xcassets in Resources */,
-				1E2899F61FC0D83200DD45CE /* presidentPortrait in Resources */,
-				1E2899F41FC0D82900DD45CE /* presidentImages in Resources */,
+				1E2899F81FC1166D00DD45CE /* presidentPortrait in Resources */,
 				1E9DDDD01FC00B0C001A2BD3 /* Main.storyboard in Resources */,
 				1E9DDDFD1FC09B1D001A2BD3 /* presidents.plist in Resources */,
 			);

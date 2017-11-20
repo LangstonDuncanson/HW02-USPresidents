@@ -10,11 +10,14 @@
 #import "PresidentTableViewCell.h"
 #import "PresidentDetailViewController.h"
 
-@interface PresidentTableViewController ()
+@interface PresidentTableViewController () <UISearchBarDelegate>
 @property (nonatomic, strong) NSArray *  presidents;
 @property (nonatomic, strong) NSArray * sortedPresidents;
 @property (nonatomic, strong) NSArray * keys;
 @property (nonatomic, strong) NSMutableDictionary *nameDictionary;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property(strong, nonatomic) NSMutableArray * filteredPresidents;
+@property(nonatomic)BOOL isFiltered;
 
 @end
 
@@ -58,24 +61,49 @@
     }
     //NSLog(@"Hey there! %@",self.nameDictionary);
     self.keys = [[self.nameDictionary allKeys] sortedArrayUsingSelector:@selector(compare:)];
-    
+    self.isFiltered = false;
+    self.searchBar.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark - Search Bar Delegate Method
+-(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
+    if(searchText.length == 0){
+        self.isFiltered = false;
+    } else {
+        self.isFiltered = true;
+        self.filteredPresidents = [[NSMutableArray alloc]init];
+        for (NSDictionary * president in self.sortedPresidents){
+            NSRange nameRange = [[president objectForKey:@"name"] rangeOfString:searchText options:NSCaseInsensitiveSearch];
+            if (nameRange.location != NSNotFound){
+                [self.filteredPresidents addObject:president];
+                NSLog(@"Filtered: %@",self.filteredPresidents);
+            }
+        }
+    }
+    [self.tableView reloadData];
+}
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    if(self.isFiltered){
+        return [self.filteredPresidents count];
+    }else{
     return [self.keys count];
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    if(self.isFiltered){
+        return [self.filteredPresidents count];
+        }else{
     NSString* key = self.keys[section];
     NSArray* keyValues = self.nameDictionary[key];
     return [keyValues count];
+        }
 }
 /*-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     return self.sortedPresidents[section][@"name"];
@@ -87,12 +115,20 @@
     
     static NSString *CellIdentifier = @"PresidentCell";
     PresidentTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    if (self.isFiltered){
+        cell.presidentName.text = [[self.filteredPresidents objectAtIndex:indexPath.row] objectForKey:@"name"];
+        cell.presidentJob.text = [[self.filteredPresidents objectAtIndex:indexPath.row] objectForKey:@"occupation"];
+        cell.presidentParty.text = [[self.filteredPresidents objectAtIndex:indexPath.row] objectForKey:@"partyAffilation"];
+        NSString *image = [[self.filteredPresidents objectAtIndex:indexPath.row] objectForKey:@"image"];
+        cell.presidentImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"presidentPortrait/%@",image]];
+        
+    }else{
     cell.presidentName.text = [[keyValues objectAtIndex:indexPath.row] objectForKey:@"name"];
     cell.presidentJob.text = [[keyValues objectAtIndex:indexPath.row] objectForKey:@"occupation"];
     cell.presidentParty.text = [[keyValues objectAtIndex:indexPath.row] objectForKey:@"partyAffilation"];
     NSString *image = [[keyValues objectAtIndex:indexPath.row] objectForKey:@"image"];
     cell.presidentImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"presidentPortrait/%@",image]];
-    // Configure the cell...
+}// Configure the cell...
     
     return cell;
 }
